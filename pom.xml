@@ -79,6 +79,8 @@
 
   </dependencies>
   
+
+  
   <profiles>
   <profile>
   <id>Regression</id>
@@ -95,6 +97,15 @@
           </suiteXmlFiles>
         </configuration>
       </plugin>
+      <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.13.0</version>
+            <configuration>
+                <source>21</source> <!-- Replace with your Java version -->
+                <target>21</target>
+            </configuration>
+        </plugin>
 </plugins>
 </pluginManagement>
 </build>
