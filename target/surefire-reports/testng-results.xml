@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-24T18:51:13 IST" name="Suite" finished-at="2025-01-24T18:52:29 IST" duration-ms="76007">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:SelenuimFramework1.framework1Design.tests.ErrorValidationsTest@24c1b2d2]" name="LoginErrorValidation" class="SelenuimFramework1.framework1Design.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:SelenuimFramework1.framework1Design.tests.SubmitOrderTest@5a59ca5e]" name="submitOrder" class="SelenuimFramework1.framework1Design.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-01-24T18:51:13 IST" name="Submit Order Test" finished-at="2025-01-24T18:52:08 IST" duration-ms="54560">
+      <class name="SelenuimFramework1.framework1Design.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SelenuimFramework1.framework1Design.tests.SubmitOrderTest@5a59ca5e]" started-at="2025-01-24T18:51:13 IST" name="launchApplication" finished-at="2025-01-24T18:51:35 IST" duration-ms="21706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SelenuimFramework1.framework1Design.tests.SubmitOrderTest@5a59ca5e]" started-at="2025-01-24T18:51:35 IST" name="submitOrder" data-provider="getData" finished-at="2025-01-24T18:51:41 IST" duration-ms="6093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Da1996@@, product=IPHONE 13 PRO, email=deepagrahari@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SelenuimFramework1.framework1Design.tests.SubmitOrderTest@5a59ca5e]" started-at="2025-01-24T18:51:41 IST" name="tearDown" finished-at="2025-01-24T18:51:43 IST" duration-ms="1830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SelenuimFramework1.framework1Design.tests.SubmitOrderTest@5a59ca5e]" started-at="2025-01-24T18:51:43 IST" name="launchApplication" finished-at="2025-01-24T18:51:50 IST" duration-ms="7242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SelenuimFramework1.framework1Design.tests.SubmitOrderTest@5a59ca5e]" started-at="2025-01-24T18:51:50 IST" name="submitOrder" data-provider="getData" finished-at="2025-01-24T18:51:56 IST" duration-ms="5529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Da1996@@, product=QWERTY, email=shivamagrahari@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SelenuimFramework1.framework1Design.tests.SubmitOrderTest@5a59ca5e]" started-at="2025-01-24T18:51:56 IST" name="tearDown" finished-at="2025-01-24T18:51:57 IST" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SelenuimFramework1.framework1Design.tests.SubmitOrderTest@5a59ca5e]" started-at="2025-01-24T18:51:57 IST" name="launchApplication" finished-at="2025-01-24T18:52:05 IST" duration-ms="7118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:SelenuimFramework1.framework1Design.tests.SubmitOrderTest@5a59ca5e]" started-at="2025-01-24T18:52:05 IST" name="OrderHistoryTest" finished-at="2025-01-24T18:52:06 IST" depends-on-methods="SelenuimFramework1.framework1Design.tests.SubmitOrderTest.submitOrder" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SelenuimFramework1.framework1Design.tests.SubmitOrderTest@5a59ca5e]" started-at="2025-01-24T18:52:06 IST" name="tearDown" finished-at="2025-01-24T18:52:08 IST" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SelenuimFramework1.framework1Design.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2025-01-24T18:52:09 IST" name="Error Validations Test" finished-at="2025-01-24T18:52:29 IST" duration-ms="20255">
+      <class name="SelenuimFramework1.framework1Design.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SelenuimFramework1.framework1Design.tests.ErrorValidationsTest@24c1b2d2]" started-at="2025-01-24T18:52:09 IST" name="launchApplication" finished-at="2025-01-24T18:52:15 IST" duration-ms="5807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:SelenuimFramework1.framework1Design.tests.ErrorValidationsTest@24c1b2d2]" started-at="2025-01-24T18:52:15 IST" name="LoginErrorValidation" finished-at="2025-01-24T18:52:15 IST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SelenuimFramework1.framework1Design.tests.ErrorValidationsTest@24c1b2d2]" started-at="2025-01-24T18:52:15 IST" name="tearDown" finished-at="2025-01-24T18:52:17 IST" duration-ms="1517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SelenuimFramework1.framework1Design.tests.ErrorValidationsTest@24c1b2d2]" started-at="2025-01-24T18:52:17 IST" name="launchApplication" finished-at="2025-01-24T18:52:23 IST" duration-ms="6704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:SelenuimFramework1.framework1Design.tests.ErrorValidationsTest@24c1b2d2]" started-at="2025-01-24T18:52:23 IST" name="ProductErrorValidation" finished-at="2025-01-24T18:52:27 IST" duration-ms="4014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SelenuimFramework1.framework1Design.tests.ErrorValidationsTest@24c1b2d2]" started-at="2025-01-24T18:52:27 IST" name="tearDown" finished-at="2025-01-24T18:52:29 IST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SelenuimFramework1.framework1Design.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
